@@ -1,0 +1,199 @@
+:root {
+  --header-background: #ffffff;
+  --header-border-bottom: #ececec;
+  --page-service-background: #2f303a;
+  --page-employers-background: #f5f4fa;
+  --page-info-background: #2f303a;
+  --main-page-color: #212121;
+  --logo-web: #2196f3;
+  --logo-studio: #000000;
+  --navigation-items-hover: #2196f3;
+  --studio-info: #757575;
+  --btn-items-color-hf: #ffffff;
+  --btn-items-background-hf: #2196f3;
+  --assortment-description: #757575;
+  --info-items: rgba(255, 255, 255, 0.6);
+  --info-map: #ffffff;
+  --service-title: #ffffff;
+  --service-btn-background: #2196f3;
+  --service-btn-background-hf: #188ce8;
+  --page-title-color: #757575;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--main-page-color);
+}
+/* HEADER */
+.page-navigation {
+  background-color: var(--header-background);
+  border-bottom: 1px solid var(--header-border-bottom);
+}
+.page-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  text-decoration: none;
+  line-height: calc(31 / 26);
+  letter-spacing: 0.03em;
+}
+.logo-web {
+  color: var(--logo-web);
+}
+.logo-studio {
+  color: var(--logo-studio);
+}
+.navigation-container {
+}
+.navigation-items {
+  list-style-type: none;
+}
+.navigation-list {
+  color: inherit;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16.41 / 14);
+  letter-spacing: 0.02em;
+}
+.navigation-list:hover,
+.navigation-list:focus {
+  color: var(--navigation-items-hover);
+}
+.studio-item {
+}
+.portfolio-item {
+}
+.contackts-item {
+}
+.studio-info {
+}
+.studio-list {
+  list-style-type: none;
+  text-decoration: none;
+  color: var(--studio-info);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16.41 / 14);
+  letter-spacing: 0.02em;
+}
+.studio-list:hover,
+.studio-list:focus {
+  color: var(--navigation-items-hover);
+}
+.email-elem {
+}
+.tel-elem {
+}
+/* MAIN */
+.page-service {
+  background-color: var(--page-service-background);
+}
+.service-title {
+  color: var(--service-title);
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+}
+.service-btn {
+  cursor: pointer;
+  background-color: var(--service-btn-background);
+  color: var(--service-title);
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+}
+.service-btn:hover,
+.service-btn:focus {
+  background-color: var(--service-btn-background-hf);
+}
+.page-benefits {
+}
+.benefits-punkts {
+  list-style-type: none;
+}
+.benefits-list {
+}
+.benefits-heading {
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+.benefits-title {
+  font-size: 14px;
+  color: var(--page-title-color);
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.page-work {
+}
+.work-directions {
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+.directions-punkts {
+  list-style-type: none;
+}
+.directions-list {
+}
+.page-employers {
+  background-color: var(--page-employers-background);
+}
+.our-team {
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+.employers-punkts {
+  list-style-type: none;
+}
+.employers-list {
+}
+.employers-name {
+  font-weight: 500;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+.employers-speciality {
+  color: var(--page-title-color);
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+/* FOOTER */
+.page-info {
+  background-color: var(--page-info-background);
+}
+.info-container {
+}
+.info-items {
+  list-style-type: none;
+  text-decoration: none;
+  color: var(--info-items);
+  font-size: 14px;
+  font-style: normal;
+}
+.info-items:hover,
+.info-items:focus {
+  color: var(--navigation-items-hover);
+}
+.info-list {
+}
+.info-map {
+  text-decoration: none;
+  color: var(--info-map);
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+}
+.info-map:hover,
+.info-map:focus {
+  color: var(--navigation-items-hover);
+}
+.info-email {
+}
+.info-phone {
+}
