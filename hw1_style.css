@@ -175,6 +175,8 @@ body {
   color: var(--info-items);
   font-size: 14px;
   font-style: normal;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
 }
 .info-items:hover,
 .info-items:focus {
