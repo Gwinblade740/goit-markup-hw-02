@@ -122,10 +122,8 @@ body {
 .cards-image {
 }
 .assortment-title {
-  text-decoration: none;
   color: inherit;
   font-size: 18px;
-  font-weight: 700;
   line-height: calc(36 / 18);
   letter-spacing: 0.06em;
 }
